@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asana Setup Guide - Customer Implementation Tracking</title>
+    <title>Asana Guide - Implementation Hub</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-brand">
+            <a href="index.html" class="nav-brand">
                 <span class="logo">📊</span>
                 <span class="brand-text">Implementation Hub</span>
-            </div>
+            </a>
             <div class="nav-links">
                 <a href="index.html">Home</a>
-                <a href="demo.html">Live Demo</a>
                 <a href="comparison.html">Compare</a>
+                <a href="demo.html">Live Demo</a>
                 <a href="asana.html" class="active">Asana</a>
                 <a href="monday.html">Monday.com</a>
                 <a href="smartsheet.html">Smartsheet</a>
@@ -24,410 +32,289 @@
         </div>
     </nav>
 
-    <header class="guide-header asana">
-        <h1 class="guide-title">Asana Setup Guide</h1>
-        <p class="guide-subtitle">Complete implementation tracking with portfolio structure & task templates</p>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span style="margin-right: 0.5rem;">✅</span>
+                Most Affordable Solution
+                <span style="margin-left: 0.5rem;">✅</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="gradient-text">Asana</span><br>
+                Proven Task Management Platform
+            </h1>
+            <p class="hero-subtitle">
+                Reliable, intuitive project management that your team already knows. 
+                Perfect for budget-conscious teams managing customer implementations.
+            </p>
+            <div class="hero-buttons">
+                <a href="#features" class="btn btn-primary btn-large">
+                    <span>📋</span>
+                    View Features
+                </a>
+                <a href="#setup" class="btn btn-secondary btn-large">
+                    <span>🚀</span>
+                    Setup Guide
+                </a>
+            </div>
+        </div>
     </header>
 
+    <!-- Main Content -->
     <main class="container">
-        <div class="guide-content">
-            <div class="info-box" style="display: flex; justify-content: space-between; align-items: center;">
-                <div>
-                    <strong>📄 Full Guide Available</strong>
-                    <p style="margin: 0.5rem 0 0 0;">Download the complete 12,000+ word setup guide with detailed instructions, templates, and examples.</p>
-                </div>
-                <a href="../asana_setup_guide.md" download class="btn asana-btn">Download Full Guide</a>
+        <!-- Overview Section -->
+        <section class="section">
+            <div class="section-header">
+                <span class="section-badge">
+                    <span style="margin-right: 0.5rem;">✅</span>
+                    Platform Overview
+                </span>
+                <h2 class="section-title">Why Asana?</h2>
+                <p class="section-subtitle">
+                    Proven project management with the best value for growing teams
+                </p>
             </div>
 
-            <div class="toc">
-                <h3>Table of Contents</h3>
-                <ul>
-                    <li><a href="#overview">Overview</a></li>
-                    <li><a href="#structure">Portfolio Structure</a></li>
-                    <li><a href="#template">Project Template</a></li>
-                    <li><a href="#fields">Custom Fields</a></li>
-                    <li><a href="#views">Views & Visualizations</a></li>
-                    <li><a href="#automations">Automations</a></li>
-                    <li><a href="#workflow">Daily Workflow</a></li>
-                    <li><a href="#example">Sample Implementation</a></li>
-                </ul>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-icon">💰</div>
+                    <h3>Best Value</h3>
+                    <p>Most affordable at $220/month for 20 users. Get professional features without enterprise pricing.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Quick to Learn</h3>
+                    <p>Intuitive interface your team can master in days. Minimal training required with familiar task-based workflows.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">📊</div>
+                    <h3>Multiple Views</h3>
+                    <p>List, Board, Timeline, Calendar, and Gantt views. Visualize work the way your team prefers.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🔗</div>
+                    <h3>100+ Integrations</h3>
+                    <p>Connect with Slack, Google Drive, Salesforce, Jira, and 100+ tools your team already uses.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🤖</div>
+                    <h3>Smart Automation</h3>
+                    <p>Unlimited automations to eliminate repetitive work. Custom rules, templates, and workflow builders included.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">📱</div>
+                    <h3>Mobile First</h3>
+                    <p>Full-featured iOS and Android apps. Manage implementations on-the-go with offline sync capability.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="section">
+            <div class="section-header">
+                <span class="section-badge">
+                    <span style="margin-right: 0.5rem;">💰</span>
+                    Pricing
+                </span>
+                <h2 class="section-title">Simple, Transparent Pricing</h2>
             </div>
 
-            <section id="overview">
-                <h2>Overview</h2>
-                <p>This guide provides a complete Asana setup for tracking customer implementations using a portfolio-based approach with project templates and powerful task dependencies.</p>
-                
-                <div class="cards">
-                    <div class="card">
-                        <div class="card-icon">⏱️</div>
-                        <h3>Setup Time</h3>
-                        <p>2-3 weeks to full deployment including team training</p>
+            <div class="platform-grid">
+                <div class="platform-card asana-card">
+                    <div class="platform-header">
+                        <h3>Starter Plan</h3>
+                        <span class="badge">Recommended</span>
                     </div>
-                    <div class="card">
-                        <div class="card-icon">📊</div>
-                        <h3>Structure</h3>
-                        <p>Portfolio → Projects → Sections → Tasks with dependencies</p>
-                    </div>
-                    <div class="card">
-                        <div class="card-icon">👥</div>
-                        <h3>Team Size</h3>
-                        <p>Scales from 5 to 50+ team members</p>
-                    </div>
-                </div>
-            </section>
-
-            <section id="structure">
-                <h2>Portfolio & Project Structure</h2>
-                
-                <h3>Portfolio: "Customer Implementations"</h3>
-                <p>Create a portfolio to get a bird's-eye view of all customer implementation projects.</p>
-                
-                <div class="info-box">
-                    <strong>Portfolio Custom Fields:</strong>
-                    <ul>
-                        <li><strong>Implementation Type:</strong> Onboarding, Migration, Integration, Expansion</li>
-                        <li><strong>Customer Tier:</strong> Enterprise, Mid-Market, SMB</li>
-                        <li><strong>ARR:</strong> Annual recurring revenue</li>
-                        <li><strong>Industry:</strong> Healthcare, Finance, Technology, etc.</li>
-                        <li><strong>Health Status:</strong> 🟢 On Track, 🟡 At Risk, 🔴 Blocked, ⚫ Not Started</li>
-                    </ul>
-                </div>
-
-                <h3>Project Template Structure</h3>
-                <p>Create one template project, then duplicate for each customer. The template includes 6 main phases:</p>
-                
-                <table class="comparison-table">
-                    <thead>
-                        <tr>
-                            <th>Phase</th>
-                            <th>Tasks</th>
-                            <th>Duration</th>
-                            <th>Key Milestone</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><strong>📋 Project Setup & Kickoff</strong></td>
-                            <td>4 tasks</td>
-                            <td>Days 1-10</td>
-                            <td>Implementation plan finalized</td>
-                        </tr>
-                        <tr>
-                            <td><strong>🏗️ Configuration & Setup</strong></td>
-                            <td>4 tasks</td>
-                            <td>Days 11-20</td>
-                            <td>Base configuration complete</td>
-                        </tr>
-                        <tr>
-                            <td><strong>📊 Data Migration</strong></td>
-                            <td>4 tasks</td>
-                            <td>Days 21-40</td>
-                            <td>Production data migrated</td>
-                        </tr>
-                        <tr>
-                            <td><strong>🧪 Testing & UAT</strong></td>
-                            <td>4 tasks</td>
-                            <td>Days 32-40</td>
-                            <td>UAT sign-off obtained</td>
-                        </tr>
-                        <tr>
-                            <td><strong>🚀 Go-Live Preparation</strong></td>
-                            <td>4 tasks</td>
-                            <td>Days 41-45</td>
-                            <td>Go-live executed</td>
-                        </tr>
-                        <tr>
-                            <td><strong>✅ Post Go-Live</strong></td>
-                            <td>5 tasks</td>
-                            <td>Days 46-90</td>
-                            <td>Handoff to Customer Success</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-
-            <section id="template">
-                <h2>Sample Tasks Per Phase</h2>
-                
-                <h3>Phase 1: Project Setup & Kickoff</h3>
-                <ul>
-                    <li>✅ Initial discovery call completed</li>
-                    <li>✅ Kickoff meeting scheduled</li>
-                    <li>✅ Customer environment assessment</li>
-                    <li>✅ Implementation plan finalized</li>
-                </ul>
-
-                <h3>Phase 2: Configuration & Setup</h3>
-                <ul>
-                    <li>⚙️ Base system configuration</li>
-                    <li>🔌 Integration development</li>
-                    <li>📋 Custom workflows configured</li>
-                    <li>📊 Data migration planning</li>
-                </ul>
-
-                <div class="success-box">
-                    <strong>Pro Tip:</strong> Each task includes detailed subtasks, dependencies, and custom fields for tracking status, priority, and phase. Dependencies ensure tasks flow in the correct order.
-                </div>
-            </section>
-
-            <section id="fields">
-                <h2>Custom Fields</h2>
-                <p>Add these custom fields to every project for consistent tracking:</p>
-                
-                <table class="comparison-table">
-                    <thead>
-                        <tr>
-                            <th>Field Name</th>
-                            <th>Type</th>
-                            <th>Options/Values</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><strong>Status</strong></td>
-                            <td>Dropdown</td>
-                            <td>Not Started, Planning, In Progress, On Hold, At Risk, Blocked, Complete</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Priority</strong></td>
-                            <td>Dropdown</td>
-                            <td>Critical, High, Medium, Low</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Phase</strong></td>
-                            <td>Dropdown</td>
-                            <td>Discovery, Configuration, Data Migration, Testing, Go-Live, Post-Launch</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Implementation Type</strong></td>
-                            <td>Dropdown</td>
-                            <td>New Customer, System Migration, Feature Expansion, Integration</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Assigned Team</strong></td>
-                            <td>People (Multiple)</td>
-                            <td>Implementation Manager, Technical Lead, Data Specialist, QA Lead, Training Lead</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Customer Contact</strong></td>
-                            <td>Text</td>
-                            <td>Primary contact name and email</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Go-Live Date</strong></td>
-                            <td>Date</td>
-                            <td>Target go-live date</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-
-            <section id="views">
-                <h2>Views & Visualizations</h2>
-                
-                <h3>Project-Level Views</h3>
-                <div class="cards">
-                    <div class="card">
-                        <h4>📅 Timeline (Gantt)</h4>
-                        <p>Shows all tasks with dependencies, color-coded by phase. Perfect for identifying critical path and bottlenecks.</p>
-                    </div>
-                    <div class="card">
-                        <h4>📊 Board (Kanban)</h4>
-                        <p>Group by Status. Drag and drop tasks between columns to update progress visually.</p>
-                    </div>
-                    <div class="card">
-                        <h4>📋 List View</h4>
-                        <p>Traditional task list, grouped by Phase or Section. Best for daily task management.</p>
-                    </div>
-                    <div class="card">
-                        <h4>📆 Calendar</h4>
-                        <p>All milestones and due dates in calendar format. Great for weekly planning.</p>
-                    </div>
-                </div>
-
-                <h3>Portfolio-Level Views</h3>
-                <div class="success-box">
-                    <p><strong>All Implementations Timeline:</strong> Shows all customer projects on a single Gantt chart. Color-code by Health Status to quickly identify at-risk projects.</p>
-                    <p><strong>Workload View:</strong> See all team members' capacity across projects. Filter by date range to identify overallocation.</p>
-                    <p><strong>List View with Custom Fields:</strong> Shows Project Name, Owner, Status, Health, Phase, Go-Live Date, and Customer Tier. Sort by Go-Live Date to prioritize.</p>
-                </div>
-            </section>
-
-            <section id="automations">
-                <h2>Automation Rules</h2>
-                
-                <div class="cards">
-                    <div class="card">
-                        <h4>1️⃣ Task Completion</h4>
-                        <p><strong>Trigger:</strong> Task marked complete<br>
-                        <strong>Action:</strong> Comment on task notifying creator</p>
-                    </div>
-                    <div class="card">
-                        <h4>2️⃣ Overdue Alert</h4>
-                        <p><strong>Trigger:</strong> Due date passes<br>
-                        <strong>Action:</strong> Add to "Blockers" section, assign to Project Owner, change priority to High</p>
-                    </div>
-                    <div class="card">
-                        <h4>3️⃣ Go-Live Approaching</h4>
-                        <p><strong>Trigger:</strong> 7 days before go-live<br>
-                        <strong>Action:</strong> Notify team, create pre-flight checklist task</p>
-                    </div>
-                    <div class="card">
-                        <h4>4️⃣ UAT Sign-off</h4>
-                        <p><strong>Trigger:</strong> UAT task complete<br>
-                        <strong>Action:</strong> Move phase to Go-Live, create go-live tasks, notify Customer Success</p>
-                    </div>
-                    <div class="card">
-                        <h4>5️⃣ Task Assignment</h4>
-                        <p><strong>Trigger:</strong> Task assigned<br>
-                        <strong>Action:</strong> Send email, add to "My Tasks"</p>
-                    </div>
-                </div>
-            </section>
-
-            <section id="workflow">
-                <h2>Daily Workflow</h2>
-                
-                <h3>For Each New Customer:</h3>
-                <ol>
-                    <li><strong>Create Project from Template</strong> - Name it "[Customer Name] Implementation"</li>
-                    <li><strong>Set Custom Fields</strong> - Implementation Type, Customer Tier, Go-Live Date</li>
-                    <li><strong>Customize Timeline</strong> - Adjust task dates based on customer's target</li>
-                    <li><strong>Set Dependencies</strong> - Link tasks that must happen in sequence</li>
-                    <li><strong>Assign Team Members</strong> - Assign implementation manager and team</li>
-                    <li><strong>Add to Portfolio</strong> - Ensure visibility in portfolio view</li>
-                </ol>
-
-                <h3>Daily Team Workflow:</h3>
-                <ol>
-                    <li>Check <strong>"My Tasks"</strong> for today's assignments</li>
-                    <li>Update task status as work progresses</li>
-                    <li>Add comments for stakeholder updates</li>
-                    <li>Mark tasks complete when done</li>
-                    <li>Check Portfolio view for cross-project insights</li>
-                </ol>
-
-                <div class="warning-box">
-                    <strong>Weekly Updates:</strong> Every Monday, Implementation Managers should:
-                    <ul>
-                        <li>Update Health Status for each project</li>
-                        <li>Review and address any blockers</li>
-                        <li>Post status updates in project descriptions</li>
-                        <li>Check team workload in Portfolio view</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section id="example">
-                <h2>Sample Implementation</h2>
-                
-                <div class="info-box">
-                    <h3>Acme Corp Enterprise Onboarding</h3>
-                    <table style="width: 100%; margin-top: 1rem;">
-                        <tr>
-                            <td><strong>Customer:</strong></td>
-                            <td>Acme Corp</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Implementation Type:</strong></td>
-                            <td>New Customer Onboarding</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Customer Tier:</strong></td>
-                            <td>Enterprise</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Industry:</strong></td>
-                            <td>Healthcare</td>
-                        </tr>
-                        <tr>
-                            <td><strong>ARR:</strong></td>
-                            <td>$150,000</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Go-Live Date:</strong></td>
-                            <td>March 1, 2026</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Health Status:</strong></td>
-                            <td>🟢 On Track</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Current Phase:</strong></td>
-                            <td>Configuration</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Progress:</strong></td>
-                            <td>15 of 37 tasks complete (41%)</td>
-                        </tr>
-                    </table>
-                </div>
-
-                <h3>Team:</h3>
-                <ul>
-                    <li><strong>Implementation Manager:</strong> Sarah Chen</li>
-                    <li><strong>Technical Lead:</strong> David Franklin</li>
-                    <li><strong>Data Specialist:</strong> Maria Rodriguez</li>
-                    <li><strong>QA Lead:</strong> James Kim</li>
-                    <li><strong>Customer Success Manager:</strong> Lisa Thompson</li>
-                </ul>
-            </section>
-
-            <section>
-                <h2>Next Steps</h2>
-                
-                <div class="cards">
-                    <div class="card">
-                        <h3>Week 1: Setup</h3>
-                        <ul style="text-align: left;">
-                            <li>Create portfolio</li>
-                            <li>Build project template</li>
-                            <li>Configure custom fields</li>
-                            <li>Create views</li>
-                        </ul>
-                    </div>
-                    <div class="card">
-                        <h3>Week 2: Automation</h3>
-                        <ul style="text-align: left;">
-                            <li>Set up 5 key rules</li>
-                            <li>Test with sample data</li>
-                            <li>Create team training</li>
-                            <li>Document workflows</li>
-                        </ul>
-                    </div>
-                    <div class="card">
-                        <h3>Week 3: Go Live</h3>
-                        <ul style="text-align: left;">
-                            <li>Migrate customer data</li>
-                            <li>Train team</li>
-                            <li>Launch with 3-5 projects</li>
-                            <li>Iterate and improve</li>
+                    <div class="platform-body">
+                        <div class="platform-stats">
+                            <div class="stat">
+                                <div class="stat-label">Cost</div>
+                                <div class="stat-value">$220/mo</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-label">Users</div>
+                                <div class="stat-value">20 users</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-label">Setup</div>
+                                <div class="stat-value">2-3 weeks</div>
+                            </div>
+                        </div>
+                        <p class="platform-description">
+                            $10.99/user/month (billed annually). Perfect for teams of 15-25 managing customer implementations.
+                        </p>
+                        <ul class="feature-list">
+                            <li>Unlimited tasks and projects</li>
+                            <li>Timeline and Gantt views</li>
+                            <li>Workflow builder</li>
+                            <li>Custom fields</li>
+                            <li>Forms for intake</li>
+                            <li>Unlimited automations</li>
+                            <li>Project dashboards</li>
+                            <li>Advanced search</li>
+                            <li>100+ integrations</li>
+                            <li>Mobile apps</li>
                         </ul>
                     </div>
                 </div>
 
-                <div style="text-align: center; margin: 3rem 0;">
-                    <p><strong>Ready to implement Asana?</strong></p>
-                    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-                        <a href="../asana_setup_guide.md" download class="btn asana-btn">Download Full Guide</a>
-                        <a href="demo.html">Live Demo</a>
-                <a href="comparison.html" class="btn btn-secondary">Compare Platforms</a>
+                <div class="platform-card asana-card">
+                    <div class="platform-header">
+                        <h3>Advanced Plan</h3>
+                        <span class="badge">For Growth</span>
+                    </div>
+                    <div class="platform-body">
+                        <div class="platform-stats">
+                            <div class="stat">
+                                <div class="stat-label">Cost</div>
+                                <div class="stat-value">$500/mo</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-label">Users</div>
+                                <div class="stat-value">20 users</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-label">Setup</div>
+                                <div class="stat-value">3-4 weeks</div>
+                            </div>
+                        </div>
+                        <p class="platform-description">
+                            $24.99/user/month (billed annually). For teams that need portfolio management and advanced reporting.
+                        </p>
+                        <ul class="feature-list">
+                            <li>All Starter features</li>
+                            <li>Goals and portfolios</li>
+                            <li>Workload management</li>
+                            <li>Forms branching</li>
+                            <li>Approval workflows</li>
+                            <li>Proofing</li>
+                            <li>Native time tracking</li>
+                            <li>Salesforce, Tableau, Power BI integrations</li>
+                            <li>Advanced security</li>
+                        </ul>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
+
+        <!-- Best For Section -->
+        <section class="section">
+            <div class="section-header">
+                <span class="section-badge">🎯 Best Fit</span>
+                <h2 class="section-title">Ideal Use Cases</h2>
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="card-icon">💰</div>
+                    <h3>Budget-Conscious Teams</h3>
+                    <p>Get professional project management at the lowest cost. At $220/month, it's $100-130 less than alternatives while delivering core features.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Quick Wins Needed</h3>
+                    <p>Start tracking implementations in days, not weeks. Intuitive interface means minimal training and fast team adoption.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">📋</div>
+                    <h3>Task-Based Workflows</h3>
+                    <p>Perfect if your implementations follow clear task sequences. Strong for checklists, dependencies, and deadline tracking.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">👥</div>
+                    <h3>Familiar Tools</h3>
+                    <p>Many team members already know Asana. Leverage existing knowledge to reduce onboarding time and resistance.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pros & Cons Section -->
+        <section class="section">
+            <div class="section-header">
+                <span class="section-badge">⚖️ Decision Factors</span>
+                <h2 class="section-title">Strengths & Considerations</h2>
+            </div>
+
+            <div class="comparison-quick">
+                <div class="comparison-table-modern">
+                    <div class="comparison-row header-row">
+                        <div class="comparison-cell">Strengths</div>
+                        <div class="comparison-cell">Considerations</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-cell">✅ Most affordable option ($220/mo)</div>
+                        <div class="comparison-cell">⚠️ Less visual than Monday.com</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-cell">✅ Intuitive, easy to learn</div>
+                        <div class="comparison-cell">⚠️ Limited customization vs Smartsheet</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-cell">✅ Proven, stable platform</div>
+                        <div class="comparison-cell">⚠️ Dashboards less robust</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-cell">✅ 100+ integrations included</div>
+                        <div class="comparison-cell">⚠️ Advanced features cost extra</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-cell">✅ Unlimited automations on Starter</div>
+                        <div class="comparison-cell">⚠️ Resource management requires upgrade</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="section cta-section">
+            <div class="cta-card">
+                <h2>Ready to Implement Asana?</h2>
+                <p>
+                    Download our complete setup guide with templates, best practices, and implementation 
+                    workflows for customer implementation tracking.
+                </p>
+                <div class="cta-buttons">
+                    <a href="asana_setup_guide.md" class="btn btn-primary btn-large" download>
+                        Download Setup Guide
+                    </a>
+                    <a href="comparison.html" class="btn btn-secondary btn-large">
+                        Compare Platforms
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
 
+    <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
-            <p>© 2025 Implementation Hub Guide | Created for Customer Success Teams</p>
+            <div class="footer-brand">
+                <span class="logo">📊</span>
+                <span class="brand-text">Implementation Hub</span>
+            </div>
+            <p class="footer-text">
+                The complete guide to choosing and implementing customer success platforms.
+                Created for engagement managers and customer success teams.
+            </p>
             <p class="footer-links">
-                <a href="index.html">Home</a> • 
+                <a href="index.html">Home</a>
+                <a href="comparison.html">Compare</a>
                 <a href="demo.html">Live Demo</a>
-                <a href="comparison.html">Compare</a> • 
-                <a href="asana.html">Asana</a> • 
-                <a href="monday.html">Monday.com</a> • 
+                <a href="asana.html">Asana</a>
+                <a href="monday.html">Monday.com</a>
                 <a href="smartsheet.html">Smartsheet</a>
+            </p>
+            <p class="footer-copyright">
+                © 2025 Implementation Hub Guide | Built for Customer Success Teams
             </p>
         </div>
     </footer>
