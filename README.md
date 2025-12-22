@@ -1,6 +1,6 @@
 # Implementation Hub - Platform Comparison Guide
 
-A comprehensive guide for choosing and implementing customer implementation tracking platforms (Asana, Monday.com, and Airtable).
+A comprehensive guide for choosing and implementing customer implementation tracking platforms (Asana, Monday.com, and Smartsheet).
 
 ## 🌐 Live Site
 
@@ -14,7 +14,7 @@ This repository contains:
 - **Detailed Setup Guides**: 
   - Asana (12,000+ words)
   - Monday.com (18,000+ words)
-  - Airtable (32,000+ words)
+  - Smartsheet (32,000+ words)
 - **Platform Comparison**: Feature-by-feature analysis with recommendations
 - **Downloadable Resources**: All guides available as Markdown files
 
@@ -82,12 +82,12 @@ If you want to keep the site files in a `docs/` folder:
 ├── comparison.html                     # Platform comparison page
 ├── asana.html                         # Asana guide page
 ├── monday.html                        # Monday.com guide page
-├── airtable.html                      # Airtable guide page
+├── airtable.html                      # Smartsheet guide page
 ├── styles.css                         # Main stylesheet
 ├── script.js                          # Interactive features
 ├── asana_setup_guide.md              # Full Asana guide (download)
 ├── monday_setup_guide.md             # Full Monday.com guide (download)
-├── airtable_setup_guide.md           # Full Airtable guide (download)
+├── airtable_setup_guide.md           # Full Smartsheet guide (download)
 ├── platform_comparison_guide.md       # Full comparison (download)
 └── README.md                          # This file
 ```
@@ -112,7 +112,7 @@ Edit color variables in `styles.css`:
     --primary: #2563eb;        /* Main accent color */
     --asana-primary: #f06a6a;  /* Asana brand color */
     --monday-primary: #ff3d57; /* Monday.com brand color */
-    --airtable-primary: #fcb400; /* Airtable brand color */
+    --airtable-primary: #fcb400; /* Smartsheet brand color */
 }
 ```
 
@@ -172,7 +172,7 @@ To test locally before deploying:
 ### Platform Guide Pages
 - **Asana** (`asana.html`): Portfolio & project structure
 - **Monday.com** (`monday.html`): Board setup & automations  
-- **Airtable** (`airtable.html`): Database architecture & relationships
+- **Smartsheet** (`airtable.html`): Database architecture & relationships
 
 Each guide includes:
 - Overview with key metrics
@@ -219,7 +219,7 @@ For questions or issues with the guides:
 
 - [Asana Official Docs](https://asana.com/guide)
 - [Monday.com Help Center](https://support.monday.com)
-- [Airtable Support](https://support.airtable.com)
+- [Smartsheet Support](https://support.airtable.com)
 
 ---
 
