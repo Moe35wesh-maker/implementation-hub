@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monday.com Setup Guide - Customer Implementation Tracking</title>
+    <title>Monday.com Guide - Implementation Hub</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-brand">
+            <a href="index.html" class="nav-brand">
                 <span class="logo">📊</span>
                 <span class="brand-text">Implementation Hub</span>
-            </div>
+            </a>
             <div class="nav-links">
                 <a href="index.html">Home</a>
-                <a href="demo.html">Live Demo</a>
                 <a href="comparison.html">Compare</a>
+                <a href="demo.html">Live Demo</a>
                 <a href="asana.html">Asana</a>
                 <a href="monday.html" class="active">Monday.com</a>
                 <a href="smartsheet.html">Smartsheet</a>
@@ -24,363 +32,292 @@
         </div>
     </nav>
 
-    <header class="guide-header monday">
-        <h1 class="guide-title">Monday.com Setup Guide</h1>
-        <p class="guide-subtitle">Beautiful visual tracking with connected boards & automations</p>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span style="margin-right: 0.5rem;">⭐</span>
+                Best Overall Choice
+                <span style="margin-left: 0.5rem;">⭐</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="gradient-text">Monday.com</span><br>
+                Visual Work Operating System
+            </h1>
+            <p class="hero-subtitle">
+                Intuitive, colorful platform that teams love to use. 
+                Perfect balance of features, usability, and value for customer implementations.
+            </p>
+            <div class="hero-buttons">
+                <a href="#features" class="btn btn-primary btn-large">
+                    <span>📋</span>
+                    View Features
+                </a>
+                <a href="#setup" class="btn btn-secondary btn-large">
+                    <span>🚀</span>
+                    Setup Guide
+                </a>
+            </div>
+        </div>
     </header>
 
+    <!-- Main Content -->
     <main class="container">
-        <div class="guide-content">
-            <div class="info-box" style="display: flex; justify-content: space-between; align-items: center; background: var(--monday-secondary);">
-                <div>
-                    <strong>📄 Full Guide Available</strong>
-                    <p style="margin: 0.5rem 0 0 0;">Download the complete 18,000+ word setup guide with boards, columns, automations, and dashboards.</p>
-                </div>
-                <a href="../monday_setup_guide.md" download class="btn monday-btn">Download Full Guide</a>
+        <!-- Overview Section -->
+        <section class="section">
+            <div class="section-header">
+                <span class="section-badge">
+                    <span style="margin-right: 0.5rem;">⭐</span>
+                    Platform Overview
+                </span>
+                <h2 class="section-title">Why Monday.com?</h2>
+                <p class="section-subtitle">
+                    The perfect blend of power, beauty, and ease of use
+                </p>
             </div>
 
-            <div class="toc">
-                <h3>Table of Contents</h3>
-                <ul>
-                    <li><a href="#overview">Overview</a></li>
-                    <li><a href="#boards">Board Structure</a></li>
-                    <li><a href="#columns">Column Configuration</a></li>
-                    <li><a href="#dashboard">Executive Dashboard</a></li>
-                    <li><a href="#automations">Automations</a></li>
-                    <li><a href="#views">Views & Filters</a></li>
-                    <li><a href="#example">Sample Setup</a></li>
-                </ul>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-icon">🎨</div>
+                    <h3>Beautiful Interface</h3>
+                    <p>Colorful, visual design that teams actually enjoy using. High adoption rates with minimal training required.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Quick Setup</h3>
+                    <p>Get up and running in 1-2 weeks. Pre-built templates and intuitive drag-and-drop interface accelerate deployment.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Custom Workflows</h3>
+                    <p>22+ column types let you track any data. Status, timeline, people, dropdown, formula columns adapt to your needs.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🤖</div>
+                    <h3>Powerful Automation</h3>
+                    <p>No-code automation builder with 25,000 automation runs/month. Eliminate repetitive work instantly.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">📊</div>
+                    <h3>Rich Dashboards</h3>
+                    <p>Unlimited dashboards with 12+ widget types. Real-time charts, timelines, and metrics for stakeholders.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🔗</div>
+                    <h3>Deep Integrations</h3>
+                    <p>Native connections to Slack, Teams, GitHub, Jira, Gmail. Two-way sync keeps all tools aligned.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="section">
+            <div class="section-header">
+                <span class="section-badge">
+                    <span style="margin-right: 0.5rem;">💰</span>
+                    Pricing
+                </span>
+                <h2 class="section-title">Great Value for Features</h2>
             </div>
 
-            <section id="overview">
-                <h2>Overview</h2>
-                <p>Monday.com provides the most visually appealing and intuitive interface for customer implementation tracking. Its connected boards and extensive customization make it ideal for teams that value aesthetics and ease of use.</p>
-                
-                <div class="cards">
-                    <div class="card">
-                        <div class="card-icon">⏱️</div>
-                        <h3>Setup Time</h3>
-                        <p>1-2 weeks including training and data migration</p>
+            <div class="platform-grid">
+                <div class="platform-card monday-card">
+                    <div class="platform-header">
+                        <h3>Pro Plan</h3>
+                        <span class="badge">Recommended</span>
                     </div>
-                    <div class="card">
-                        <div class="card-icon">🎨</div>
-                        <h3>Visual Design</h3>
-                        <p>Most beautiful interface with drag-and-drop ease</p>
-                    </div>
-                    <div class="card">
-                        <div class="card-icon">🤖</div>
-                        <h3>Automation</h3>
-                        <p>10+ recipes included for workflow efficiency</p>
-                    </div>
-                </div>
-            </section>
-
-            <section id="boards">
-                <h2>Board Structure</h2>
-                
-                <h3>Board 1: Customer Implementations Master</h3>
-                <p>High-level tracking of each customer implementation project with 22 custom columns.</p>
-                
-                <div class="success-box">
-                    <strong>Key Features:</strong>
-                    <ul>
-                        <li><strong>Connected Boards:</strong> Links to detailed tasks board</li>
-                        <li><strong>Status Tracking:</strong> Visual status columns with 8 states</li>
-                        <li><strong>Health Indicators:</strong> Traffic light system (🟢🟡🔴)</li>
-                        <li><strong>Formula Columns:</strong> Auto-calculate days to go-live</li>
-                        <li><strong>Mirror Columns:</strong> Pull data from connected boards</li>
-                    </ul>
-                </div>
-
-                <h3>Board 2: Implementation Tasks</h3>
-                <p>Granular task tracking with 15 columns for detailed work management.</p>
-
-                <h3>Board 3: Team Capacity Tracker</h3>
-                <p>Monitor team workload and utilization across all implementations.</p>
-
-                <table class="comparison-table">
-                    <thead>
-                        <tr>
-                            <th>Board</th>
-                            <th>Purpose</th>
-                            <th>Key Columns</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><strong>Master</strong></td>
-                            <td>Customer-level tracking</td>
-                            <td>Status, Health, Phase, Days to Go-Live, Progress %</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Tasks</strong></td>
-                            <td>Task-level execution</td>
-                            <td>Assignee, Due Date, Priority, Dependencies, Checklist</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Capacity</strong></td>
-                            <td>Resource management</td>
-                            <td>Role, Active Projects, Utilization %, Available Hours</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-
-            <section id="columns">
-                <h2>Key Column Types</h2>
-                
-                <div class="cards">
-                    <div class="card">
-                        <h4>Status Columns</h4>
-                        <p>Custom labels with color-coding:<br>
-                        🔵 In Progress, 🟢 Complete, 🟡 UAT, 🔴 Blocked, ⚪ Not Started</p>
-                    </div>
-                    <div class="card">
-                        <h4>People Columns</h4>
-                        <p>Assign multiple team members with profile photos for clear ownership</p>
-                    </div>
-                    <div class="card">
-                        <h4>Timeline Columns</h4>
-                        <p>Visual date ranges with automatic Gantt chart generation</p>
-                    </div>
-                    <div class="card">
-                        <h4>Formula Columns</h4>
-                        <p>Auto-calculate days to go-live, budget status, completion percentages</p>
-                    </div>
-                    <div class="card">
-                        <h4>Connect Boards</h4>
-                        <p>Link implementations to tasks, enabling relational data flows</p>
-                    </div>
-                    <div class="card">
-                        <h4>Progress Tracking</h4>
-                        <p>Visual progress bars showing completion status at a glance</p>
-                    </div>
-                </div>
-            </section>
-
-            <section id="dashboard">
-                <h2>Executive Dashboard</h2>
-                <p>Build a comprehensive dashboard with 12 widgets for complete visibility:</p>
-                
-                <h3>Dashboard Widgets:</h3>
-                <table class="comparison-table">
-                    <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>Widget Type</th>
-                            <th>Purpose</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Pie Chart</td>
-                            <td>Implementations by Status</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Battery</td>
-                            <td>Health Status Distribution</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Timeline</td>
-                            <td>All Projects Gantt Chart</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Number</td>
-                            <td>Active Implementations Count</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Number (Red)</td>
-                            <td>At-Risk Projects Alert</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>Column Chart</td>
-                            <td>Go-Lives by Month</td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td>Table</td>
-                            <td>Next 30 Days Go-Lives</td>
-                        </tr>
-                        <tr>
-                            <td>8</td>
-                            <td>Bar Chart</td>
-                            <td>Team Utilization %</td>
-                        </tr>
-                        <tr>
-                            <td>9</td>
-                            <td>Table</td>
-                            <td>Blocked/At-Risk List</td>
-                        </tr>
-                        <tr>
-                            <td>10</td>
-                            <td>Donut Chart</td>
-                            <td>Implementation Types</td>
-                        </tr>
-                        <tr>
-                            <td>11</td>
-                            <td>Number</td>
-                            <td>Total ARR in Flight</td>
-                        </tr>
-                        <tr>
-                            <td>12</td>
-                            <td>Progress</td>
-                            <td>Average Completion %</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-
-            <section id="automations">
-                <h2>Automation Recipes</h2>
-                
-                <div class="cards">
-                    <div class="card">
-                        <h4>1. Task Completion</h4>
-                        <p><strong>When:</strong> Status → Complete<br>
-                        <strong>Then:</strong> Notify Implementation Manager</p>
-                    </div>
-                    <div class="card">
-                        <h4>2. Overdue Alert</h4>
-                        <p><strong>When:</strong> Due Date arrives + Status ≠ Complete<br>
-                        <strong>Then:</strong> Change Status to Blocked, Priority to Critical, Notify team</p>
-                    </div>
-                    <div class="card">
-                        <h4>3. Health Alert</h4>
-                        <p><strong>When:</strong> Health → At Risk/Critical<br>
-                        <strong>Then:</strong> Notify managers, Create escalation, Send Slack alert</p>
-                    </div>
-                    <div class="card">
-                        <h4>4. Go-Live Warning</h4>
-                        <p><strong>When:</strong> Days to Go-Live = 7<br>
-                        <strong>Then:</strong> Notify team, Create pre-flight task, Post update</p>
-                    </div>
-                    <div class="card">
-                        <h4>5. New Implementation</h4>
-                        <p><strong>When:</strong> New item created<br>
-                        <strong>Then:</strong> Create tasks, Assign manager, Send welcome email</p>
-                    </div>
-                    <div class="card">
-                        <h4>6. Weekly Reminder</h4>
-                        <p><strong>When:</strong> Every Monday 9am<br>
-                        <strong>Then:</strong> Request status updates from all managers</p>
-                    </div>
-                </div>
-            </section>
-
-            <section id="views">
-                <h2>Views & Filters</h2>
-                
-                <h3>8 Essential Views:</h3>
-                <ol>
-                    <li><strong>Main Table:</strong> All columns, grouped by Status, sorted by Go-Live Date</li>
-                    <li><strong>Kanban Board:</strong> Drag-and-drop between status columns</li>
-                    <li><strong>Timeline (Gantt):</strong> Visual timeline with dependencies</li>
-                    <li><strong>Calendar:</strong> All go-live dates in calendar format</li>
-                    <li><strong>My Implementations:</strong> Filtered to current user's projects</li>
-                    <li><strong>At-Risk Dashboard:</strong> Shows only blocked/critical items</li>
-                    <li><strong>Form View:</strong> Intake form for new implementations</li>
-                    <li><strong>Chart View:</strong> Inline visualizations and analytics</li>
-                </ol>
-
-                <div class="warning-box">
-                    <strong>Color-Coding Strategy:</strong>
-                    <ul>
-                        <li>🔵 Blue: Planning/In Progress</li>
-                        <li>🟡 Yellow: Caution/UAT/Waiting</li>
-                        <li>🟢 Green: On Track/Complete</li>
-                        <li>🔴 Red: Blocked/Critical</li>
-                        <li>🟣 Purple: Special states (Go-Live Ready)</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section id="example">
-                <h2>Sample Board Entry</h2>
-                
-                <div class="info-box" style="background: var(--monday-secondary);">
-                    <h3>Acme Corp Enterprise Onboarding</h3>
-                    <table style="width: 100%; margin-top: 1rem;">
-                        <tr>
-                            <td><strong>Implementation Type:</strong></td>
-                            <td>🟦 New Onboarding</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Customer Tier:</strong></td>
-                            <td>💎 Enterprise</td>
-                        </tr>
-                        <tr>
-                            <td><strong>ARR:</strong></td>
-                            <td>$150,000</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Status:</strong></td>
-                            <td>🟢 In Progress</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Health:</strong></td>
-                            <td>🟢 On Track</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Phase:</strong></td>
-                            <td>⚙️ Configuration</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Days to Go-Live:</strong></td>
-                            <td>45 days</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Progress:</strong></td>
-                            <td>35% (15/37 tasks complete)</td>
-                        </tr>
-                    </table>
-                </div>
-            </section>
-
-            <section>
-                <h2>Implementation Timeline</h2>
-                
-                <div class="cards">
-                    <div class="card">
-                        <h3>Week 1</h3>
-                        <p><strong>Days 1-2:</strong> Create boards and columns<br>
-                        <strong>Day 3:</strong> Build dashboard<br>
-                        <strong>Days 4-5:</strong> Train team and migrate data</p>
-                    </div>
-                    <div class="card">
-                        <h3>Week 2</h3>
-                        <p>Go live with Monday.com, provide ongoing support, and optimize based on team feedback</p>
+                    <div class="platform-body">
+                        <div class="platform-stats">
+                            <div class="stat">
+                                <div class="stat-label">Cost</div>
+                                <div class="stat-value">$320/mo</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-label">Users</div>
+                                <div class="stat-value">17-20 users</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-label">Setup</div>
+                                <div class="stat-value">1-2 weeks</div>
+                            </div>
+                        </div>
+                        <p class="platform-description">
+                            $16-19/user/month (billed annually). Best for teams of 15-25 needing visual workflows and automation.
+                        </p>
+                        <ul class="feature-list">
+                            <li>Unlimited boards</li>
+                            <li>Timeline, Gantt, Calendar views</li>
+                            <li>25,000 automation runs/month</li>
+                            <li>Unlimited dashboards</li>
+                            <li>Time tracking</li>
+                            <li>Formula columns</li>
+                            <li>Chart & workload views</li>
+                            <li>Agile reporting</li>
+                            <li>Private boards</li>
+                            <li>24/7 support</li>
+                            <li>All integrations</li>
+                        </ul>
                     </div>
                 </div>
 
-                <div style="text-align: center; margin: 3rem 0;">
-                    <p><strong>Ready to set up Monday.com?</strong></p>
-                    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-                        <a href="../monday_setup_guide.md" download class="btn monday-btn">Download Full Guide</a>
-                        <a href="demo.html">Live Demo</a>
-                <a href="comparison.html" class="btn btn-secondary">Compare Platforms</a>
+                <div class="platform-card monday-card">
+                    <div class="platform-header">
+                        <h3>Enterprise Plan</h3>
+                        <span class="badge">For Scale</span>
+                    </div>
+                    <div class="platform-body">
+                        <div class="platform-stats">
+                            <div class="stat">
+                                <div class="stat-label">Cost</div>
+                                <div class="stat-value">Custom</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-label">Users</div>
+                                <div class="stat-value">50+</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-label">Setup</div>
+                                <div class="stat-value">4-6 weeks</div>
+                            </div>
+                        </div>
+                        <p class="platform-description">
+                            Contact sales for pricing. For large organizations managing 100+ implementations with advanced security.
+                        </p>
+                        <ul class="feature-list">
+                            <li>All Pro features</li>
+                            <li>Advanced analytics</li>
+                            <li>Multi-level permissions</li>
+                            <li>Enterprise integrations</li>
+                            <li>Tailored onboarding</li>
+                            <li>Advanced reporting</li>
+                            <li>HIPAA compliance</li>
+                            <li>SSO & SAML</li>
+                            <li>Dedicated account manager</li>
+                            <li>99.9% uptime SLA</li>
+                        </ul>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
+
+        <!-- Best For Section -->
+        <section class="section">
+            <div class="section-header">
+                <span class="section-badge">🎯 Best Fit</span>
+                <h2 class="section-title">Ideal Use Cases</h2>
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="card-icon">⭐</div>
+                    <h3>Team Adoption Priority</h3>
+                    <p>Beautiful interface means high user adoption. Teams actually want to use Monday.com, reducing resistance and training time.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Visual Workflows</h3>
+                    <p>Color-coded status columns make progress instantly visible. Perfect for stakeholder updates and executive visibility.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Fast Implementation</h3>
+                    <p>Need to track implementations quickly? 1-2 week setup gets you operational fast with minimal disruption.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🔄</div>
+                    <h3>Automation Needs</h3>
+                    <p>Eliminate manual updates with powerful no-code automations. Status changes, notifications, and assignments happen automatically.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pros & Cons Section -->
+        <section class="section">
+            <div class="section-header">
+                <span class="section-badge">⚖️ Decision Factors</span>
+                <h2 class="section-title">Strengths & Considerations</h2>
+            </div>
+
+            <div class="comparison-quick">
+                <div class="comparison-table-modern">
+                    <div class="comparison-row header-row">
+                        <div class="comparison-cell">Strengths</div>
+                        <div class="comparison-cell">Considerations</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-cell">✅ Most intuitive interface</div>
+                        <div class="comparison-cell">⚠️ Mid-range pricing ($320/mo)</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-cell">✅ Fastest setup (1-2 weeks)</div>
+                        <div class="comparison-cell">⚠️ Can become expensive at scale</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-cell">✅ Highest team adoption</div>
+                        <div class="comparison-cell">⚠️ Less enterprise features than Smartsheet</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-cell">✅ Powerful no-code automation</div>
+                        <div class="comparison-cell">⚠️ Automation runs have limits</div>
+                    </div>
+                    <div class="comparison-row">
+                        <div class="comparison-cell">✅ Excellent visual dashboards</div>
+                        <div class="comparison-cell">⚠️ Advanced formulas less powerful</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="section cta-section">
+            <div class="cta-card">
+                <h2>Ready to Implement Monday.com?</h2>
+                <p>
+                    Download our complete setup guide with board templates, automation recipes, 
+                    and best practices for customer implementation tracking.
+                </p>
+                <div class="cta-buttons">
+                    <a href="monday_setup_guide.md" class="btn btn-primary btn-large" download>
+                        Download Setup Guide
+                    </a>
+                    <a href="comparison.html" class="btn btn-secondary btn-large">
+                        Compare Platforms
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
 
+    <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
-            <p>© 2025 Implementation Hub Guide | Created for Customer Success Teams</p>
-            <p class="footer-links">
-                <a href="index.html">Home</a> • 
-                <a href="demo.html">Live Demo</a>
-                <a href="comparison.html">Compare</a> • 
-                <a href="asana.html">Asana</a> • 
-                <a href="monday.html">Monday.com</a> • 
-                <a href="smartsheet.html">Smartsheet</a>
+            <div class="footer-brand">
+                <span class="logo">📊</span>
+                <span class="brand-text">Implementation Hub</span>
             </div>
+            <p class="footer-text">
+                The complete guide to choosing and implementing customer success platforms.
+                Created for engagement managers and customer success teams.
+            </p>
+            <p class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="comparison.html">Compare</a>
+                <a href="demo.html">Live Demo</a>
+                <a href="asana.html">Asana</a>
+                <a href="monday.html">Monday.com</a>
+                <a href="smartsheet.html">Smartsheet</a>
+            </p>
+            <p class="footer-copyright">
+                © 2025 Implementation Hub Guide | Built for Customer Success Teams
+            </p>
         </div>
     </footer>
 
