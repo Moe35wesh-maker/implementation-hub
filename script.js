@@ -471,4 +471,3 @@ document.querySelectorAll('.section').forEach(section => {
     section.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
     revealObserver.observe(section);
 });
-
