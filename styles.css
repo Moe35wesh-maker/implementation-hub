@@ -2764,3 +2764,30 @@ body {
 .section-badge {
     font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
 }
+
+/* ============================================
+   SMARTSHEET STYLING
+   ============================================ */
+.smartsheet-card .platform-header {
+    background: linear-gradient(135deg, #0073e6 0%, #005bb5 100%);
+    background-size: 200% 200%;
+    animation: gradientShift 8s ease infinite;
+    color: var(--white);
+}
+
+.smartsheet-btn {
+    background: linear-gradient(135deg, #0073e6, #005bb5);
+    background-size: 200% 200%;
+    color: var(--white);
+    box-shadow: 0 8px 25px rgba(0, 115, 230, 0.3);
+}
+
+.smartsheet-btn:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 12px 35px rgba(0, 115, 230, 0.4);
+    animation: gradientShift 3s ease infinite;
+}
+
+--smartsheet-primary: #0073e6;
+--smartsheet-secondary: #005bb5;
+--smartsheet-gradient: linear-gradient(135deg, #0073e6 0%, #005bb5 100%);
