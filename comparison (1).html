@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platform Comparison - Asana vs Monday.com vs Smartsheet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="logo">📊</span>
+                <span class="brand-text">Implementation Hub</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="demo.html">Live Demo</a>
+                <a href="comparison.html" class="active">Compare</a>
+                <a href="asana.html">Asana</a>
+                <a href="monday.html">Monday.com</a>
+                <a href="smartsheet.html">Smartsheet</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="guide-header">
+        <h1 class="guide-title">Platform Comparison</h1>
+        <p class="guide-subtitle">Asana vs Monday.com vs Smartsheet - Find Your Perfect Match</p>
+    </header>
+
+    <main class="container">
+        <div class="guide-content">
+            <section>
+                <h2>Quick Decision Matrix</h2>
+                
+                <div class="cards">
+                    <div class="card" style="border-top: 4px solid var(--asana-primary);">
+                        <div class="card-icon">📝</div>
+                        <h3>Choose Asana if:</h3>
+                        <ul style="text-align: left; list-style: none; padding: 0;">
+                            <li>✅ Task management is your priority</li>
+                            <li>✅ Need strong dependencies</li>
+                            <li>✅ Want portfolio visibility</li>
+                            <li>✅ Budget-conscious</li>
+                            <li>✅ Team knows Asana</li>
+                        </ul>
+                        <p style="margin-top: 1rem;"><strong>Best for:</strong> Task execution & workflows</p>
+                    </div>
+
+                    <div class="card" style="border-top: 4px solid var(--monday-primary);">
+                        <div class="card-icon">🎨</div>
+                        <h3>Choose Monday.com if:</h3>
+                        <ul style="text-align: left; list-style: none; padding: 0;">
+                            <li>✅ Visual clarity is priority #1</li>
+                            <li>✅ Want immediate impact</li>
+                            <li>✅ Need beautiful dashboards</li>
+                            <li>✅ Love drag-and-drop</li>
+                            <li>✅ Extensive automation</li>
+                        </ul>
+                        <p style="margin-top: 1rem;"><strong>Best for:</strong> Visual teams & quick wins</p>
+                    </div>
+
+                    <div class="card" style="border-top: 4px solid var(--airtable-primary);">
+                        <div class="card-icon">🗄️</div>
+                        <h3>Choose Smartsheet if:</h3>
+                        <ul style="text-align: left; list-style: none; padding: 0;">
+                            <li>✅ Complex data relationships</li>
+                            <li>✅ Powerful reporting needed</li>
+                            <li>✅ Building data hub</li>
+                            <li>✅ Team understands databases</li>
+                            <li>✅ Long-term scalability</li>
+                        </ul>
+                        <p style="margin-top: 1rem;"><strong>Best for:</strong> Data ecosystem & analytics</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Feature Comparison</h2>
+                <div class="comparison-table-wrapper">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th class="asana-col">Asana</th>
+                                <th class="monday-col">Monday.com</th>
+                                <th class="airtable-col">Smartsheet</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Learning Curve</strong></td>
+                                <td>Medium</td>
+                                <td>Easy ⭐</td>
+                                <td>Hard</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Setup Time</strong></td>
+                                <td>2-4 hours</td>
+                                <td>1-2 hours ⭐</td>
+                                <td>4-8 hours</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Visual Appeal</strong></td>
+                                <td>Good</td>
+                                <td>Excellent ⭐</td>
+                                <td>Good</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Task Management</strong></td>
+                                <td>Excellent ⭐</td>
+                                <td>Very Good</td>
+                                <td>Good</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Data Relationships</strong></td>
+                                <td>Limited</td>
+                                <td>Moderate</td>
+                                <td>Excellent ⭐</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Reporting</strong></td>
+                                <td>Good</td>
+                                <td>Very Good</td>
+                                <td>Excellent ⭐</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Automations</strong></td>
+                                <td>Very Good</td>
+                                <td>Excellent ⭐</td>
+                                <td>Very Good</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Mobile App</strong></td>
+                                <td>Excellent ⭐</td>
+                                <td>Excellent ⭐</td>
+                                <td>Very Good</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Custom Views</strong></td>
+                                <td>5-6 types</td>
+                                <td>8+ types</td>
+                                <td>10+ types ⭐</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Dependencies</strong></td>
+                                <td>Excellent ⭐</td>
+                                <td>Good</td>
+                                <td>Limited</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Gantt Charts</strong></td>
+                                <td>Excellent ⭐</td>
+                                <td>Excellent ⭐</td>
+                                <td>Good (Pro only)</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Formulas</strong></td>
+                                <td>Limited</td>
+                                <td>Good</td>
+                                <td>Excellent ⭐</td>
+                            </tr>
+                            <tr>
+                                <td><strong>API Access</strong></td>
+                                <td>Excellent ⭐</td>
+                                <td>Good</td>
+                                <td>Excellent ⭐</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Integrations</strong></td>
+                                <td>100+</td>
+                                <td>200+</td>
+                                <td>1000+ ⭐</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Customer Facing</strong></td>
+                                <td>Limited</td>
+                                <td>Good</td>
+                                <td>Excellent ⭐</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Scalability</strong></td>
+                                <td>Very Good</td>
+                                <td>Very Good</td>
+                                <td>Excellent ⭐</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section>
+                <h2>Cost Comparison</h2>
+                
+                <div class="cards">
+                    <div class="card" style="border-top: 4px solid var(--asana-primary);">
+                        <h3>Asana Pricing</h3>
+                        <div style="margin: 1.5rem 0;">
+                            <div style="margin-bottom: 1rem;">
+                                <strong>Basic:</strong> Free<br>
+                                <span style="font-size: 0.875rem; color: var(--gray-600);">Limited features</span>
+                            </div>
+                            <div style="margin-bottom: 1rem; background: var(--asana-secondary); padding: 1rem; border-radius: 0.5rem;">
+                                <strong>Premium:</strong> $11/user/month<br>
+                                <span style="font-size: 0.875rem;">⭐ Recommended</span>
+                            </div>
+                            <div style="margin-bottom: 1rem;">
+                                <strong>Business:</strong> $25/user/month<br>
+                                <span style="font-size: 0.875rem; color: var(--gray-600);">Advanced features</span>
+                            </div>
+                            <div>
+                                <strong>Enterprise:</strong> Custom<br>
+                                <span style="font-size: 0.875rem; color: var(--gray-600);">Full control</span>
+                            </div>
+                        </div>
+                        <p><strong>20-user team:</strong> $220/month ✅</p>
+                    </div>
+
+                    <div class="card" style="border-top: 4px solid var(--monday-primary);">
+                        <h3>Monday.com Pricing</h3>
+                        <div style="margin: 1.5rem 0;">
+                            <div style="margin-bottom: 1rem;">
+                                <strong>Individual:</strong> Free<br>
+                                <span style="font-size: 0.875rem; color: var(--gray-600);">2 users max</span>
+                            </div>
+                            <div style="margin-bottom: 1rem;">
+                                <strong>Basic:</strong> $8/user/month<br>
+                                <span style="font-size: 0.875rem; color: var(--gray-600);">Limited</span>
+                            </div>
+                            <div style="margin-bottom: 1rem;">
+                                <strong>Standard:</strong> $10/user/month<br>
+                                <span style="font-size: 0.875rem; color: var(--gray-600);">Good baseline</span>
+                            </div>
+                            <div style="margin-bottom: 1rem; background: var(--monday-secondary); padding: 1rem; border-radius: 0.5rem;">
+                                <strong>Pro:</strong> $16/user/month<br>
+                                <span style="font-size: 0.875rem;">⭐ Recommended</span>
+                            </div>
+                            <div>
+                                <strong>Enterprise:</strong> Custom<br>
+                                <span style="font-size: 0.875rem; color: var(--gray-600);">Premium support</span>
+                            </div>
+                        </div>
+                        <p><strong>20-user team:</strong> $320/month</p>
+                    </div>
+
+                    <div class="card" style="border-top: 4px solid var(--airtable-primary);">
+                        <h3>Smartsheet Pricing</h3>
+                        <div style="margin: 1.5rem 0;">
+                            <div style="margin-bottom: 1rem;">
+                                <strong>Free:</strong> $0<br>
+                                <span style="font-size: 0.875rem; color: var(--gray-600);">1,000 records</span>
+                            </div>
+                            <div style="margin-bottom: 1rem;">
+                                <strong>Plus:</strong> $10/user/month<br>
+                                <span style="font-size: 0.875rem; color: var(--gray-600);">5,000 records</span>
+                            </div>
+                            <div style="margin-bottom: 1rem; background: var(--airtable-secondary); padding: 1rem; border-radius: 0.5rem;">
+                                <strong>Pro:</strong> $20/user/month<br>
+                                <span style="font-size: 0.875rem;">⭐ Recommended</span>
+                            </div>
+                            <div>
+                                <strong>Enterprise:</strong> Custom<br>
+                                <span style="font-size: 0.875rem; color: var(--gray-600);">Advanced admin</span>
+                            </div>
+                        </div>
+                        <p><strong>20-user team:</strong> $400/month</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Use Case Analysis</h2>
+                
+                <h3>Scenario 1: Small Team (5 people, 10 customers)</h3>
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Platform</th>
+                            <th>Monthly Cost</th>
+                            <th>Setup Time</th>
+                            <th>Verdict</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Asana</strong></td>
+                            <td>$55</td>
+                            <td>3 hours</td>
+                            <td>✅ Good fit - affordable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Monday.com</strong></td>
+                            <td>$80</td>
+                            <td>1.5 hours</td>
+                            <td>⭐ Best fit - visual management</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Smartsheet</strong></td>
+                            <td>$100</td>
+                            <td>6 hours</td>
+                            <td>⚠️ Overkill for this size</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="success-box">
+                    <strong>Recommendation:</strong> Monday.com provides the best balance of features, ease of use, and visual management for small teams.
+                </div>
+
+                <h3>Scenario 2: Large Team (20 people, 50+ customers)</h3>
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Platform</th>
+                            <th>Monthly Cost</th>
+                            <th>Setup Time</th>
+                            <th>Verdict</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Asana</strong></td>
+                            <td>$220</td>
+                            <td>8 hours</td>
+                            <td>⚠️ Struggles with complex data</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Monday.com</strong></td>
+                            <td>$320</td>
+                            <td>4 hours</td>
+                            <td>✅ Good - reporting limitations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Smartsheet</strong></td>
+                            <td>$400</td>
+                            <td>12 hours</td>
+                            <td>⭐ Excellent - fully utilizes power</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="success-box">
+                    <strong>Recommendation:</strong> Smartsheet's complexity is justified at this scale. The relational database capabilities become essential for managing 50+ customer relationships.
+                </div>
+
+                <h3>Scenario 3: New to Project Management Tools</h3>
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Platform</th>
+                            <th>Learning Curve</th>
+                            <th>Training Time</th>
+                            <th>Adoption Speed</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Asana</strong></td>
+                            <td>Medium</td>
+                            <td>2 hours</td>
+                            <td>1 week ✅</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Monday.com</strong></td>
+                            <td>Easy</td>
+                            <td>1 hour</td>
+                            <td>2-3 days ⭐</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Smartsheet</strong></td>
+                            <td>Hard</td>
+                            <td>4+ hours</td>
+                            <td>2-3 weeks ⚠️</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="success-box">
+                    <strong>Recommendation:</strong> Monday.com has the fastest time-to-value with its intuitive interface and visual approach.
+                </div>
+            </section>
+
+            <section>
+                <h2>Microsoft Office Integration Comparison</h2>
+                <p style="margin-bottom: 2rem;">All three platforms offer robust Microsoft Office integrations. Here's how they compare:</p>
+                
+                <div class="comparison-table-wrapper">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Integration Feature</th>
+                                <th class="asana-col">Asana</th>
+                                <th class="monday-col">Monday.com</th>
+                                <th class="airtable-col">Smartsheet</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Outlook Integration</strong></td>
+                                <td>✅ Native add-in</td>
+                                <td>✅ Native add-in</td>
+                                <td>✅ Native add-in</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Email-to-Task</strong></td>
+                                <td>✅ Instant conversion</td>
+                                <td>✅ Instant conversion</td>
+                                <td>✅ Create/edit rows</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Microsoft Teams</strong></td>
+                                <td>✅ Native + AI Copilot</td>
+                                <td>✅ Updates & items</td>
+                                <td>✅ Embedded tabs</td>
+                            </tr>
+                            <tr>
+                                <td><strong>OneDrive/SharePoint</strong></td>
+                                <td>✅ Direct attachment</td>
+                                <td>✅ File syncing</td>
+                                <td>✅ Built-in native</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Calendar Sync</strong></td>
+                                <td>✅ Auto deadlines sync</td>
+                                <td>✅ Bi-directional</td>
+                                <td>✅ Event syncing</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Azure AD SSO</strong></td>
+                                <td>✅ SAML-based</td>
+                                <td>✅ Enterprise tier</td>
+                                <td>✅ Entra ID</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Power BI Integration</strong></td>
+                                <td>⚠️ Via connectors</td>
+                                <td>⚠️ Via connectors</td>
+                                <td>✅ <strong>Native ⭐ UNIQUE!</strong></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Power Automate</strong></td>
+                                <td>✅ Full support</td>
+                                <td>✅ 200+ templates</td>
+                                <td>✅ Full workflows</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Mobile Outlook</strong></td>
+                                <td>✅ iOS/Android</td>
+                                <td>✅ iOS/Android</td>
+                                <td>✅ iOS/Android</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Integration Cost</strong></td>
+                                <td><strong>FREE ⭐</strong></td>
+                                <td>Included in paid</td>
+                                <td>Included in plans</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Setup Time</strong></td>
+                                <td>15-20 minutes</td>
+                                <td><strong>10-15 min ⭐</strong></td>
+                                <td>15-20 minutes</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Requirements</strong></td>
+                                <td>Office 365 Commercial</td>
+                                <td>M365 Business Premium</td>
+                                <td>Office 365/Outlook.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="cards" style="margin-top: 2rem;">
+                    <div class="card" style="border-top: 4px solid var(--asana-primary);">
+                        <div class="card-icon">🏆</div>
+                        <h3>Asana - Best Overall Integration</h3>
+                        <p><strong>Unique Advantage:</strong> FREE on all plans (even free tier!)</p>
+                        <ul style="text-align: left; list-style: none; padding: 0; margin-top: 1rem;">
+                            <li>✅ Most comprehensive ecosystem</li>
+                            <li>✅ Native Teams with AI Copilot</li>
+                            <li>✅ Azure AD SSO (easiest setup)</li>
+                            <li>✅ FREE integration features</li>
+                            <li>✅ OneDrive + SharePoint support</li>
+                        </ul>
+                        <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--gray-600);"><strong>Best For:</strong> Organizations using multiple Microsoft tools daily, teams wanting FREE Office integration, enterprises needing Azure AD SSO</p>
+                    </div>
+
+                    <div class="card" style="border-top: 4px solid var(--monday-primary);">
+                        <div class="card-icon">⚡</div>
+                        <h3>Monday.com - Fastest Setup</h3>
+                        <p><strong>Unique Advantage:</strong> Quickest deployment (10-15 minutes)</p>
+                        <ul style="text-align: left; list-style: none; padding: 0; margin-top: 1rem;">
+                            <li>✅ Bi-directional calendar sync</li>
+                            <li>✅ Excellent Outlook integration</li>
+                            <li>✅ Office 365 connector built-in</li>
+                            <li>✅ Beautiful visual interface</li>
+                            <li>✅ Fastest time-to-value</li>
+                        </ul>
+                        <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--gray-600);"><strong>Best For:</strong> Teams primarily using Outlook, organizations needing rapid deployment, visual collaboration focus</p>
+                    </div>
+
+                    <div class="card" style="border-top: 4px solid var(--smartsheet-primary);">
+                        <div class="card-icon">📊</div>
+                        <h3>Smartsheet - Analytics Leader</h3>
+                        <p><strong>Unique Advantage:</strong> ONLY native Power BI connector! ⭐</p>
+                        <ul style="text-align: left; list-style: none; padding: 0; margin-top: 1rem;">
+                            <li>✅ Native Power BI (UNIQUE!)</li>
+                            <li>✅ Bi-directional data flow</li>
+                            <li>✅ Template app pre-built</li>
+                            <li>✅ Embedded Teams tabs</li>
+                            <li>✅ Full mobile Outlook support</li>
+                        </ul>
+                        <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--smartsheet-primary);"><strong>Best For:</strong> Organizations using Power BI extensively, data-driven teams, finance/operations departments, analytics-focused organizations</p>
+                    </div>
+                </div>
+
+                <div class="info-box" style="margin-top: 2rem;">
+                    <h3>Microsoft Integration - Key Decision Factors</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1rem;">
+                        <div>
+                            <p><strong>🏆 Choose Asana if:</strong></p>
+                            <ul style="margin-top: 0.5rem;">
+                                <li>Using multiple Microsoft tools</li>
+                                <li>Want FREE Office integration</li>
+                                <li>Need Azure AD SSO</li>
+                                <li>Cost-effectiveness is priority</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p><strong>⚡ Choose Monday.com if:</strong></p>
+                            <ul style="margin-top: 0.5rem;">
+                                <li>Primarily using Outlook</li>
+                                <li>Need fastest setup</li>
+                                <li>Want visual interface</li>
+                                <li>Rapid adoption critical</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p><strong>📊 Choose Smartsheet if:</strong></p>
+                            <ul style="margin-top: 0.5rem;">
+                                <li>Power BI is critical</li>
+                                <li>Analytics-driven organization</li>
+                                <li>Need enterprise reporting</li>
+                                <li>Data visualization key</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="success-box" style="margin-top: 2rem;">
+                    <strong>Bottom Line:</strong> All three platforms offer strong Microsoft integration. Asana leads on breadth and cost (FREE!), Monday.com wins on setup speed, and Smartsheet is unmatched for analytics with its unique native Power BI connector.
+                </div>
+            </section>
+
+            <section>
+                <h2>Strengths & Weaknesses</h2>
+                
+                <div class="cards">
+                    <div class="card">
+                        <h3 style="color: var(--asana-primary);">Asana</h3>
+                        <div style="margin: 1rem 0;">
+                            <h4 style="color: var(--success);">Strengths</h4>
+                            <ul style="text-align: left;">
+                                <li>Best-in-class dependencies</li>
+                                <li>Portfolio management</li>
+                                <li>Clean interface</li>
+                                <li>Strong collaboration</li>
+                                <li>Excellent mobile app</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--danger);">Weaknesses</h4>
+                            <ul style="text-align: left;">
+                                <li>Limited data relationships</li>
+                                <li>Basic reporting</li>
+                                <li>No database functionality</li>
+                                <li>Can't create customer DB</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3 style="color: var(--monday-primary);">Monday.com</h3>
+                        <div style="margin: 1rem 0;">
+                            <h4 style="color: var(--success);">Strengths</h4>
+                            <ul style="text-align: left;">
+                                <li>Most beautiful interface</li>
+                                <li>Incredible customization</li>
+                                <li>Extensive automations</li>
+                                <li>Best dashboards</li>
+                                <li>Great for non-technical</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--danger);">Weaknesses</h4>
+                            <ul style="text-align: left;">
+                                <li>More expensive</li>
+                                <li>Can feel overwhelming</li>
+                                <li>Limited relational DB</li>
+                                <li>Formula limitations</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3 style="color: var(--airtable-primary);">Smartsheet</h3>
+                        <div style="margin: 1rem 0;">
+                            <h4 style="color: var(--success);">Strengths</h4>
+                            <ul style="text-align: left;">
+                                <li>Powerful relationships</li>
+                                <li>Best reporting</li>
+                                <li>Incredible flexibility</li>
+                                <li>Interface builder</li>
+                                <li>Can build anything</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--danger);">Weaknesses</h4>
+                            <ul style="text-align: left;">
+                                <li>Steepest learning curve</li>
+                                <li>Task mgmt not native</li>
+                                <li>Can become complex</li>
+                                <li>Most expensive</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Final Recommendations</h2>
+                
+                <div class="recommendation-grid">
+                    <div class="recommendation-card">
+                        <div class="recommendation-icon">🥇</div>
+                        <h3>First Choice: Monday.com</h3>
+                        <p class="recommendation-subtitle">Best Immediate Value</p>
+                        <ul>
+                            <li>2-week setup time</li>
+                            <li>Team will love the interface</li>
+                            <li>Solves 90% of needs</li>
+                            <li>Beautiful stakeholder reporting</li>
+                            <li>Worth the $320/month investment</li>
+                        </ul>
+                        <a href="monday.html" class="btn btn-platform monday-btn" style="margin-top: 1rem;">View Monday.com Guide →</a>
+                    </div>
+
+                    <div class="recommendation-card">
+                        <div class="recommendation-icon">🥈</div>
+                        <h3>Second Choice: Smartsheet</h3>
+                        <p class="recommendation-subtitle">Best Long-term Investment</p>
+                        <ul>
+                            <li>Takes longer to set up (4-5 weeks)</li>
+                            <li>Steeper learning curve</li>
+                            <li>Unmatched power & flexibility</li>
+                            <li>Future-proof architecture</li>
+                            <li>Grows with you to 100+ customers</li>
+                        </ul>
+                        <a href="smartsheet.html" class="btn btn-platform airtable-btn" style="margin-top: 1rem;">View Smartsheet Guide →</a>
+                    </div>
+
+                    <div class="recommendation-card">
+                        <div class="recommendation-icon">🥉</div>
+                        <h3>Third Choice: Asana</h3>
+                        <p class="recommendation-subtitle">Best for Budget + Tasks</p>
+                        <ul>
+                            <li>Most affordable ($220/month)</li>
+                            <li>Strong task execution</li>
+                            <li>Portfolio visibility</li>
+                            <li>Solid, reliable choice</li>
+                            <li>Perfect if budget constrained</li>
+                        </ul>
+                        <a href="asana.html" class="btn btn-platform asana-btn" style="margin-top: 1rem;">View Asana Guide →</a>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Implementation Timeline</h2>
+                
+                <div class="info-box">
+                    <h3>Recommended Approach</h3>
+                    <p><strong>Week 1:</strong> Sign up for free trials of all three platforms</p>
+                    <p><strong>Week 2:</strong> Set up Monday.com (fastest ROI)</p>
+                    <p><strong>Week 3:</strong> Test with 3-5 real customer projects</p>
+                    <p><strong>Week 4:</strong> Expand to full team if satisfied</p>
+                    <p><strong>Month 3:</strong> Evaluate if you need Smartsheet's advanced features</p>
+                    <p><strong>Month 6:</strong> Make final platform decision</p>
+                </div>
+            </section>
+
+            <div style="text-align: center; margin: 3rem 0;">
+                <h2>Ready to Get Started?</h2>
+                <p style="margin-bottom: 2rem;">Choose your platform and follow our detailed setup guides</p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="asana.html" class="btn btn-platform asana-btn">Asana Setup Guide</a>
+                    <a href="monday.html" class="btn btn-platform monday-btn">Monday.com Setup Guide</a>
+                    <a href="smartsheet.html" class="btn btn-platform airtable-btn">Smartsheet Setup Guide</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2025 Implementation Hub Guide | Created for Client Success Teams</p>
+            <p class="footer-links">
+                <a href="index.html">Home</a> • 
+                <a href="demo.html">Live Demo</a>
+                <a href="comparison.html">Compare</a> • 
+                <a href="asana.html">Asana</a> • 
+                <a href="monday.html">Monday.com</a> • 
+                <a href="smartsheet.html">Smartsheet</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
